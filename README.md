@@ -129,10 +129,10 @@ python function `transform`. But first, make sure you understand the code and wh
 ### Send Notification Record to Kafka Topic
 1. Read Invoices from Kafka Topic
 2. Create Notification Record (with 3 fields):
-   3. {"CustomerCardNo": "243252", "TotalAmount": 11115.0, "EarnedLoyaltyPoints": 2222.6}
-   4. The  column named `EarnedLoyaltyPoints` is a new column that you have to create, it is 20% of the `TotalAmount` column
+   * {"CustomerCardNo": "243252", "TotalAmount": 11115.0, "EarnedLoyaltyPoints": 2222.6}
+   * The  column named `EarnedLoyaltyPoints` is a new column that you have to create, it is 20% of the `TotalAmount` column
 3. Send Notification Record to Kafka Topic
-   4. Kafka Topic receives data as key-value pair, send the `invoice number` as a **key** and the `notification record` as a **value**
+   * Kafka Topic receives data as key-value pair, send the `invoice number` as a **key** and the `notification record` as a **value**
 
 Check out [notification.py](exercises/c_spark_streaming_kafka_source/notification.py) and implement the pure
 python functions `transform` and `get_notification_dataframe`. But first, make sure you understand the code and what it does.
