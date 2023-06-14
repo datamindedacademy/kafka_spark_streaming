@@ -123,7 +123,7 @@ Read the invoices, that are being sent through kafka in real-time, with Spark St
 Check out [file_streaming.py](exercises/c_spark_streaming_kafka_source/file_streaming.py) and implement the pure
 python function `transform`. But first, make sure you understand the code and what it does.
 
-![Exercise 1 - Kafka and Spark Structures Streaming](images/exercise1.png "Exercise 1 - Kafka and Spark Structures Streaming")
+![Exercise 1 - Kafka and Spark Structured Streaming](images/exercise1.png "Exercise 1 - Kafka and Spark Structured Streaming")
 
 
 ### Send Notification Record to Kafka Topic
@@ -137,7 +137,7 @@ python function `transform`. But first, make sure you understand the code and wh
 Check out [notification.py](exercises/c_spark_streaming_kafka_source/notification.py) and implement the pure
 python functions `transform` and `get_notification_dataframe`. But first, make sure you understand the code and what it does.
 
-![Exercise 2 - Kafka and Spark Structures Streaming](images/exercise2.png "Exercise 2 - Kafka and Spark Structures Streaming")
+![Exercise 2 - Kafka and Spark Structured Streaming](images/exercise2.png "Exercise 2 - Kafka and Spark Structured Streaming")
 
 
 ### Multi query
@@ -149,11 +149,12 @@ Check out [multi_query.py](exercises/c_spark_streaming_kafka_source/multi_query.
 python functions `transform_flatten_reports` and `get_notification_df_transformed`. 
 But first, make sure you understand the code and what it does.
 
-![Exercise 3 - Kafka and Spark Structures Streaming](images/exercise3.png "Exercise 3 - Kafka and Spark Structures Streaming")
+![Exercise 3 - Kafka and Spark Structured Streaming](images/exercise3.png "Exercise 3 - Kafka and Spark Structured Streaming")
 
 
 ### BONUS
-Create a test file to test your functions.
+* Create a test file to test your functions.
+* Have a look at [Amazon MSK](https://docs.aws.amazon.com/msk/latest/developerguide/getting-started.html) and try to deploy a Kafka Cluster.
 
 
 ## Useful information:
